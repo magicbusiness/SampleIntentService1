@@ -1,0 +1,6 @@
+To Use Intent Service
+1. First make file for IntentSerice in Service -> Service (IntentService)
+2. Make sure you implement companion object and init, then add new function for stopping service in companion object
+3. on function onHandleIntent implement try and catch, and also in companion object
+
+Note: methode intentservice is for running app in background, for example is play music, maps, etc
